@@ -13,7 +13,7 @@
 	<!-- Core theme CSS (부트스트랩 css 추가) -->
 	<link href="/css/styles.css" rel="stylesheet" />
 	<!-- Font Awesome icons (폰트, 아이콘 무료로 배포해주는 사이트)-->
-	<script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesme.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 	<!-- Google fonts (랜덤밥스 기본 폰트, 구글폰트 라이브러리 제공)-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
