@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>랜덤밥스 START PAGE</title>
+<title>랜덤밥스</title>
 </head>
 <body>
 
