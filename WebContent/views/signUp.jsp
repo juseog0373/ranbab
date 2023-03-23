@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>랜덤밥스</title>
+<title>랜덤밥스 회원가입</title>
 </head>
 <body>
 
