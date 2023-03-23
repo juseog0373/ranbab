@@ -13,9 +13,8 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">랜덤밥스</h1>
-                    <br>
-                    <h4>안녕하세요!!!</h4>
+                    <h1 class="masthead-heading mb-0">랜덤밥스</h1> <br/>
+                    <h5>매일매일 새로운 음식을 만나보세요.</h5>
                     <a class="btn btn-primary btn-xl rounded-pill mt-5" href="/views/start.jsp">음식 고르러 가기</a>
                 </div>
             </div>
