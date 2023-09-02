@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  	<title>지도 팝업</title>
+  	<script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=c211bb87762d78249b3058e5ec3925e4&libraries=services"></script>
+  	<style>
+	    body, html {
+	      height: 100%;
+	      margin: 0;
+	      padding: 0;
+	    }
+	    #map {
+	      width: 100%;
+	      height: 100%;
+	    }
+  	</style>
+  	<script>
+  	window.onload = function() {
+  	    var urlParams = new URLSearchParams(window.location.search);
+  	    var address = urlParams.get('address');
+
+  	    var container = document.getElementById("map");
+  	    
+  	    var options = {
+  	      center: new kakao.maps.LatLng(0, 0),
+  	      level: 3
+  	    };
+  	    var map = new kakao.maps.Map(container, options);
+
+  	    var geocoder = new kakao.maps.services.Geocoder();
+  	    geocoder.addressSearch(address, function(result, status) {
+  	      if (status === kakao.maps.services.Status.OK) {
+  	        var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
+  	        map.setCenter(coords);
+  	        var marker = new kakao.maps.Marker({ map: map, position: coords });
+  	      } else {
+  	        alert("지도 정보를 불러오지 못했습니다.");
+  	      }
+  	    });
+  	  };
+  	</script>
+</head>
+<body>
+	<div id="map"></div>
+</body>
+</html>
