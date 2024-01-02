@@ -20,7 +20,7 @@
 
 ## 🛠️ 사용 기술 및 라이브러리
 
-- Java, JSP
+- Java, JSP
 - HTML/CSS, JS[ES6]
 - MySQL
 - KakaoMap API(dapi.kakao.com/v2/maps/sdk.js)
